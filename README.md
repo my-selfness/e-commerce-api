@@ -39,7 +39,7 @@ This is a fully functional e-commerce API built with FastAPI and MongoDB. The AP
 
 1. Clone the repository:
    ```
-    git clone 
+    git clone https://github.com/my-selfness/e-commerce-api.git
     cd app
     ```
 
