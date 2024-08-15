@@ -2,4 +2,4 @@ env
 .env
 .git
 *__pycache__
-todo.txt
+*todo.txt
