@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+ <img width=200px height=200px src="https://cdn.pixabay.com/photo/2023/11/29/03/44/e-commerce-8418610_1280.png" alt="Project logo"></a>
 </p>
 
 <h3 align="center">E-Commerce Api using FastApi</h3>
@@ -38,7 +38,7 @@ This is a fully functional e-commerce API built with FastAPI and MongoDB. The AP
 ## Installation
 
 1. Clone the repository:
-   ```sh
+   ```
     git clone 
     cd app
     ```
@@ -62,3 +62,15 @@ This is a fully functional e-commerce API built with FastAPI and MongoDB. The AP
     ```
     uvicorn app.main:app --reload
     ```
+
+
+## ⛏️ Built Using
+
+- [Python](https://www.python.org/) - Programming Language
+- [FastApi](https://fastapi.tiangolo.com/) - APi Framework
+- [MongoDB](https://www.mongodb.com/) - Database
+- [Uvicorn](https://www.uvicorn.org/) - Server 
+
+## ✍️ Authors
+
+- [@my-selfness](https://github.com/my-selfness) - Idea & Initial work
