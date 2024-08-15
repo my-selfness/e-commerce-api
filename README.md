@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://cdn.pixabay.com/photo/2023/11/29/03/44/e-commerce-8418610_1280.png" alt="Project logo"></a>
+ <img width=200px height=200px src="https://cdn.pixabay.com/photo/2023/11/29/03/44/e-commerce-8418610_1280.png" style="border-radius: 50%;" alt="Project logo"></a>
 </p>
 
 <h3 align="center">E-Commerce Api using FastApi</h3>
