@@ -1,6 +1,6 @@
 from fastapi import APIRouter,HTTPException
 from crud.product import get_products,create_product,update_product,get_product,delete_product
-from schemas.product import ProductCreate,Product
+from models.product import ProductCreate,Product
 from typing import List
 
 

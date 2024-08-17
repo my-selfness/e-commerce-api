@@ -1,5 +1,6 @@
 import uuid
-
+from fastapi import Depends
+from .security import verify_token
 
 def convert_id(product: dict) -> dict:
     product["_id"] = str(product.pop("_id"))
@@ -37,3 +38,6 @@ def format_price(price: float) -> str:
     '''
     return f"₹ {price:,.2f}"
 
+
+async def get_user_id(user: dict = Depends(verify_token)):
+    return user["_id"]

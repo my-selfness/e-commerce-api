@@ -1,13 +1,14 @@
 from fastapi import FastAPI
-from routers import product
+from routers import product,cart,user
 
 
 app=FastAPI()
 
 
 # All Routers
+app.include_router(user.auth_router)
 app.include_router(product.product_router)
-
+app.include_router(cart.cart_router)
 
 
 # uvicorn main:app --reload

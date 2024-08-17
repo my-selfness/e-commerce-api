@@ -1,5 +1,5 @@
 from database import product_collection
-from schemas.product import  ProductCreate,Product
+from models.product import  ProductCreate,Product
 from typing import List,Optional
 from bson import ObjectId
 from core.utils import convert_id
