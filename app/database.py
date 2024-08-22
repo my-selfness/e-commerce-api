@@ -14,3 +14,4 @@ db=client.ecom_store
 user_collection=db["ecom_user"]
 product_collection=db["ecom_product"]
 cart_collection=db["ecom_cart"]
+order_collection=db["ecom_order"]
