@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from routers import product,cart,user,order
+from routers import product,cart,user,order,payment
 
 
 app=FastAPI()
@@ -10,6 +10,7 @@ app.include_router(user.auth_router)
 app.include_router(product.product_router)
 app.include_router(cart.cart_router)
 app.include_router(order.order_router)
+app.include_router(payment.payment_router)
 
 
 
